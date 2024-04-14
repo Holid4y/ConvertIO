@@ -9,6 +9,7 @@
   --bg-focus: #d4d4d4;
   --bg-active: #7479B3;
   --bg-color: #d4d4d4;
+  --bg-second-color: #beb6b6;
   --bs-blue: #7479B3;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -140,6 +141,7 @@
   --bg-focus: #20222E;
   --bg-active: #7479B3;
   --bg-color: #20222e;
+  --bg-second-color: #191b27;
   --bs-body-color: #d4d4d4;
   --bs-body-color-rgb: 222, 226, 230;
   --bs-body-bg: #111119;
@@ -2109,10 +2111,10 @@ progress {
   }
 }
 .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
-  background-color: var(--bs-body-bg);
+  background-color: var(--bg-second-color);
 }
 .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
-  background-color: var(--bs-body-bg);
+  background-color: var(--bg-second-color);
 }
 .form-control-plaintext {
   display: block;
